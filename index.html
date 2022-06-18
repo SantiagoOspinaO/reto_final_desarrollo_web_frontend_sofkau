@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="col-12 text-center">To-Do List</h1>
+        <section class="crud">
+            <div class="head">
+                <h2 class="crud-title">Add List</h2>
+                <form class="crud-form">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input name="nombre" placeholder="Ingrese lista de tareas" required class="form-control"
+                            aria-label="Text input with checkbox">
+                    </div>
+                    <input type="submit" value="Add new list" class="btn btn-success float-right">
+                    <br>
+                    <input type="hidden" name="id">
+                </form>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <table class="table table-success table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col" id="thead">Id</th>
+                                <th scope="col" id="thead">Name</th>
+                                <th scope="col" id="thead">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <template id="crud-template">
+            <tr>
+                <td class="id"></td>
+                <td class="name"></td>
+                <td>
+                    <button class="edit  btn btn-success" type="button">Editar</button>
+                    <button class="delete btn btn-danger" type="button">Eliminar</button>
+                </td>
+            </tr>
+        </template>
+</body>
+
+<script src="./js/app.js" async defer></script>
+
+</html>
