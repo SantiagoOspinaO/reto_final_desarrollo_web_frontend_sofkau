@@ -1,0 +1,29 @@
+* {
+    font-family: Cambria;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(202, 194, 197);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#input-enviar {
+    margin-top: 5px;
+}
+
+table {
+    width: 85%;
+    border: 1px solid #000;
+}
+
+th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: auto;
+    border: 1px solid #000;
+}
