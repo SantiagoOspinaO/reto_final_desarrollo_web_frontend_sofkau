@@ -4,6 +4,9 @@
 **Ejecución**    
 El proyecto se corre con la extensión de VSCode `Live Share` 
 
+**Video**  
+:film_strip: https://youtu.be/cg9Xj5ecvtg
+
 **Contribuidor:**  
 :computer: Santiago Ospina Osorio - santiago.m200@outlook.es
 
